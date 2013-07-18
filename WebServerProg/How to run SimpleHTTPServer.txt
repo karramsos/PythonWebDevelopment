@@ -1,0 +1,1 @@
+To run a local python server execute this command: python -m SimpleHTTPServer
