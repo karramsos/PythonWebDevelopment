@@ -1,0 +1,10 @@
+<h1>Film Listings</h1>
+{% if film_list %}
+	<ul>
+	{% for film in film_list %}
+		<li>{{film.title}}, {{film.year}}, {{film.director}}</li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>No films are availabe</p>
+{% endif %}
